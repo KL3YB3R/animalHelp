@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap'); */
+@import "flowbite/src/themes/default";
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+  --color-brand-primary: #10B981;
+  --color-brand-secondary: #3B82F6;
+  --color-status-urgent: #F59E0B;
+  --color-status-adoption: #FB923C;
+  --color-app-bg: #F8FAFC;
+  --color-app-text: #1E293B;
+}
